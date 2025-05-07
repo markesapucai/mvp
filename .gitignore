@@ -1,7 +1,18 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Variáveis de ambiente
 .env
 .env.local
-*.env
-secrets/
-.DS_Store
-__pycache__/
-*.py[cod]
